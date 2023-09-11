@@ -18,55 +18,79 @@ MonoBehaviour:
   mapTiles:
   - key: 0
     tile: {fileID: 7038651461069040994, guid: 5dd39c63f22286c459261e3dd05ac229, type: 3}
-    keysOfValidNeighboursLeft: 0000000004000000
-    keysOfValidNeighboursRight: 0000000002000000
-    keysOfValidNeighboursBottom: 0000000001000000
-    keysOfValidNeighboursTop: 0000000003000000
+    left: 0,4,11,12
+    right: 0,2,9,10
+    down: 0,1,10,12
+    up: 0,3,9,11
   - key: 1
     tile: {fileID: 5240769297084549480, guid: f5f65ba5aa4753e4b9f88a1cc511e90b, type: 3}
-    keysOfValidNeighboursLeft: 0100000005000000
-    keysOfValidNeighboursRight: 0100000008000000
-    keysOfValidNeighboursBottom: 
-    keysOfValidNeighboursTop: 00000000
+    left: 1,5,10
+    right: 1,8,12
+    down: 
+    up: 0
   - key: 2
     tile: {fileID: 5240769297084549480, guid: 15ea175260fe60a4a8ccabb0c279c053, type: 3}
-    keysOfValidNeighboursLeft: 00000000
-    keysOfValidNeighboursRight: 
-    keysOfValidNeighboursBottom: 0200000008000000
-    keysOfValidNeighboursTop: 0200000007000000
+    left: 0
+    right: 
+    down: 2,8,9
+    up: 2,7,10
   - key: 3
     tile: {fileID: 5240769297084549480, guid: cf5cbeeb54a70ea44ae03cbe11233ff6, type: 3}
-    keysOfValidNeighboursLeft: 0300000006000000
-    keysOfValidNeighboursRight: 0300000007000000
-    keysOfValidNeighboursBottom: 00000000
-    keysOfValidNeighboursTop: 
+    left: 3,6,9
+    right: 3,7,11
+    down: 0
+    up: 
   - key: 4
     tile: {fileID: 5240769297084549480, guid: ce841f09fce20ad4ba32f1df45262bd6, type: 3}
-    keysOfValidNeighboursLeft: 
-    keysOfValidNeighboursRight: 00000000
-    keysOfValidNeighboursBottom: 0400000005000000
-    keysOfValidNeighboursTop: 0400000006000000
+    left: 
+    right: 0
+    down: 4,5,11
+    up: 4,6,12
   - key: 5
     tile: {fileID: 8321839136627270186, guid: 5f08cbcd4ecc5cc448b8d9de5f5633a4, type: 3}
-    keysOfValidNeighboursLeft: 
-    keysOfValidNeighboursRight: 03000000
-    keysOfValidNeighboursBottom: 
-    keysOfValidNeighboursTop: 04000000
+    left: 
+    right: 1
+    down: 
+    up: 4,12
   - key: 6
     tile: {fileID: 2970509866251602726, guid: 8bf504ac66700fa40ad0c7b10a39b438, type: 3}
-    keysOfValidNeighboursLeft: 
-    keysOfValidNeighboursRight: 01000000
-    keysOfValidNeighboursBottom: 04000000
-    keysOfValidNeighboursTop: 
+    left: 
+    right: 3
+    down: 4
+    up: 
   - key: 7
     tile: {fileID: 7977417343179467669, guid: 8c3ef97a779f6f94183a6cb038b5e60c, type: 3}
-    keysOfValidNeighboursLeft: 03000000
-    keysOfValidNeighboursRight: 
-    keysOfValidNeighboursBottom: 02000000
-    keysOfValidNeighboursTop: 
+    left: 3
+    right: 
+    down: 2
+    up: 
   - key: 8
     tile: {fileID: 822772860468740722, guid: 176e97dbe9d505d4bb13c1d76ed2a211, type: 3}
-    keysOfValidNeighboursLeft: 01000000
-    keysOfValidNeighboursRight: 
-    keysOfValidNeighboursBottom: 
-    keysOfValidNeighboursTop: 02000000
+    left: 1
+    right: 
+    down: 
+    up: 2,10
+  - key: 9
+    tile: {fileID: 4280746629738001702, guid: 13953fb8876da66418ff905940e1e22d, type: 3}
+    left: 0
+    right: 3
+    down: 0
+    up: 2
+  - key: 10
+    tile: {fileID: 859369242142092285, guid: 8facf364c9e9b3e4b809c8d0b9813cb5, type: 3}
+    left: 0
+    right: 1
+    down: 2
+    up: 0
+  - key: 11
+    tile: {fileID: 8699769874236979862, guid: 0a44d4702bf98a24491604ada7fede86, type: 3}
+    left: 3
+    right: 0
+    down: 0
+    up: 4
+  - key: 12
+    tile: {fileID: 2867358751119461100, guid: f232ee30e0a123d419cc11f54723ad16, type: 3}
+    left: 1
+    right: 0
+    down: 4
+    up: 0
