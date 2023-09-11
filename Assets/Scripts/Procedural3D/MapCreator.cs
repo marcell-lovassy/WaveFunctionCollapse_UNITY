@@ -35,13 +35,7 @@ public class MapCreator : MonoBehaviour
 
     private void EvaluateInitialMap()
     {
-        for (int i = 0; i < mapDetails.maxMapTileCount; i++)
-        {
-            for (int j = 0; j < mapDetails.maxMapTileCount; j++)
-            {
-                UpdatePossibleTilesAtNeighbours(i, j, map[i, j]);
-            }
-        }
+        UpdatePossibleTilesAtNeighbours(0, 0, map[0, 0]);
     }
 
     private void UpdatePossibleTilesAtNeighbours(int i, int j, int[] possibleTiles)
